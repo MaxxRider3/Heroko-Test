@@ -7,9 +7,9 @@ import logging
 
 # the secret configuration specific things
 if bool(os.environ.get("ENV", False)):
-    from madarchoot.sample_config import Config
+    from tobrot.sample_config import Config
 else:
-    from madarchoot.config import Config
+    from tobrot.config import Config
 from logging.handlers import RotatingFileHandler
 
 # TODO: is there a better way?
