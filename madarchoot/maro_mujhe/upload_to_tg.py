@@ -30,7 +30,7 @@ from madarchoot.maro_mujhe.copy_similar_file import copy_file
 from requests.utils import requote_uri
 from pathlib import Path
 
-from madarchoot import (
+from tobrot import (
     TG_MAX_FILE_SIZE,
     EDIT_SLEEP_TIME_OUT,
     DOWNLOAD_LOCATION,
