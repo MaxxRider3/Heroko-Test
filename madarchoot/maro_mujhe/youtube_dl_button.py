@@ -17,7 +17,7 @@ import time
 import subprocess
 from datetime import datetime
 
-from tobrot import (
+from madarchoot import (
     DOWNLOAD_LOCATION,
     AUTH_CHANNEL
 )
@@ -25,7 +25,7 @@ from tobrot import (
 import pyrogram
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-from tobrot.helper_funcs.upload_to_tg import upload_to_tg, upload_to_gdrive
+from madarchoot.maro_mujhe.upload_to_tg import upload_to_tg, upload_to_gdrive
 
 
 async def youtube_dl_call_back(bot, update):
