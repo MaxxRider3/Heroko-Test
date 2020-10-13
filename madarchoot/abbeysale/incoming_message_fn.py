@@ -15,7 +15,7 @@ LOGGER = logging.getLogger(__name__)
 import os
 import requests
 
-from tobrot import (
+from madarchoot import (
     DOWNLOAD_LOCATION
 )
 
@@ -23,13 +23,13 @@ from tobrot import (
 import time
 import aria2p
 import asyncio
-from tobrot.helper_funcs.extract_link_from_message import extract_link
-from tobrot.helper_funcs.download_aria_p_n import call_apropriate_function, call_apropriate_function_g, aria_start
-from tobrot.helper_funcs.download_from_link import request_download
-from tobrot.helper_funcs.display_progress import progress_for_pyrogram
-from tobrot.helper_funcs.youtube_dl_extractor import extract_youtube_dl_formats
-from tobrot.helper_funcs.admin_check import AdminCheck
-from tobrot.helper_funcs.ytplaylist import yt_playlist_downg
+from madarchoot.maro_mujhe.extract_link_from_message import extract_link
+from madarchoot.maro_mujhe.download_aria_p_n import call_apropriate_function, call_apropriate_function_g, aria_start
+from madarchoot.maro_mujhe.download_from_link import request_download
+from madarchoot.maro_mujhe.display_progress import progress_for_pyrogram
+from madarchoot.maro_mujhe.youtube_dl_extractor import extract_youtube_dl_formats
+from madarchoot.maro_mujhe.admin_check import AdminCheck
+from madarchoot.maro_mujhe.ytplaylist import yt_playlist_downg
 
 async def incoming_purge_message_f(client, message):
     """/purge command"""
