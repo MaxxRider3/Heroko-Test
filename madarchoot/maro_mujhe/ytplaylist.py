@@ -15,7 +15,7 @@ import shutil
 import asyncio
 import subprocess
 import requests
-from tobrot.helper_funcs.upload_to_tg import upload_to_tg, upload_to_gdrive
+from madarchoot.maro_mujhe.upload_to_tg import upload_to_tg, upload_to_gdrive
 from tobrot import (
     DOWNLOAD_LOCATION
 )
