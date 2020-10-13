@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52
 
 # the logging things
 import logging
@@ -17,7 +16,7 @@ import io
 import sys
 import traceback
 
-from tobrot import (
+from madarchoot import (
     DOWNLOAD_LOCATION,
     TG_BOT_TOKEN,
     APP_ID,
@@ -38,22 +37,22 @@ from tobrot import (
 
 from pyrogram import Client, Filters, MessageHandler, CallbackQueryHandler
 
-from tobrot.plugins.new_join_fn import new_join_f, help_message_f, rename_message_f
-from tobrot.plugins.incoming_message_fn import incoming_message_f, incoming_youtube_dl_f, incoming_purge_message_f, incoming_gdrive_message_f, g_yt_playlist
-from tobrot.plugins.rclone_size import check_size_g, g_clearme
-from tobrot.plugins.status_message_fn import (
+from madarchoot.abbeysale.new_join_fn import new_join_f, help_message_f, rename_message_f
+from madarchoot.abbeysale.incoming_message_fn import incoming_message_f, incoming_youtube_dl_f, incoming_purge_message_f, incoming_gdrive_message_f, g_yt_playlist
+from madarchoot.abbeysale.rclone_size import check_size_g, g_clearme
+from madarchoot.abbeysale.status_message_fn import (
     status_message_f,
     cancel_message_f,
     exec_message_f,
     upload_document_f,
     upload_log_file
 )
-from tobrot.plugins.call_back_button_handler import button
-from tobrot.plugins.custom_thumbnail import (
+from madarchoot.abbeysale.call_back_button_handler import button
+from madarchoot.abbeysale.custom_thumbnail import (
     save_thumb_nail,
     clear_thumb_nail
 )
-from tobrot.helper_funcs.download import down_load_media_f
+from madarchoot.maro_mujhe.download import down_load_media_f
 
 
 if __name__ == "__main__" :
