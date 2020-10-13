@@ -3,7 +3,7 @@
 
 import os
 
-from tobrot import DOWNLOAD_LOCATION
+from madarchoot import DOWNLOAD_LOCATION
 
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
