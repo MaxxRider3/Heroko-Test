@@ -1,4 +1,4 @@
-from tobrot.sample_config import Config
+from madarchoot.sample_config import Config
 
 class Config(Config):
   TG_BOT_TOKEN = "1300536378:AAERF5bDDmqjhmIA6hzYN6FQOESSTuKrRGM"
