@@ -18,7 +18,7 @@ import traceback
 import shutil
 import io
 
-from madarchoot import (
+from tobrot import (
     MAX_MESSAGE_LENGTH,
     AUTH_CHANNEL,
     BOT_START_TIME,
