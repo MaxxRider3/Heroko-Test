@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52
 
 import os
 import time
@@ -8,9 +7,9 @@ import logging
 
 # the secret configuration specific things
 if bool(os.environ.get("ENV", False)):
-    from tobrot.sample_config import Config
+    from madarchoot.sample_config import Config
 else:
-    from tobrot.config import Config
+    from madarchoot.config import Config
 from logging.handlers import RotatingFileHandler
 
 # TODO: is there a better way?
