@@ -14,7 +14,7 @@ LOGGER = logging.getLogger(__name__)
 import pyrogram
 
 
-from madarchoot import (
+from tobrot import (
     AUTH_CHANNEL
 )
 
