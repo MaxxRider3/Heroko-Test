@@ -15,7 +15,7 @@ import aiohttp
 
 from pyrogram import MessageEntity
 
-from madarchoot import (
+from tobrot import (
     TG_OFFENSIVE_API
 )
 
