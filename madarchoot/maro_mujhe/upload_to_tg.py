@@ -23,14 +23,14 @@ import shutil
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
 from PIL import Image
-from tobrot.helper_funcs.display_progress import progress_for_pyrogram, humanbytes
-from tobrot.helper_funcs.help_Nekmo_ffmpeg import take_screen_shot
-from tobrot.helper_funcs.split_large_files import split_large_files
-from tobrot.helper_funcs.copy_similar_file import copy_file
+from madarchoot.maro_mujhe.display_progress import progress_for_pyrogram, humanbytes
+from madarchoot.maro_mujhe.help_Nekmo_ffmpeg import take_screen_shot
+from madarchoot.maro_mujhe.split_large_files import split_large_files
+from madarchoot.maro_mujhe.copy_similar_file import copy_file
 from requests.utils import requote_uri
 from pathlib import Path
 
-from tobrot import (
+from madarchoot import (
     TG_MAX_FILE_SIZE,
     EDIT_SLEEP_TIME_OUT,
     DOWNLOAD_LOCATION,
