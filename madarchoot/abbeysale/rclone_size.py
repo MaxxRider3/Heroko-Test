@@ -6,7 +6,7 @@ import subprocess
 import os
 import asyncio
 
-from tobrot import (
+from madarchoot import (
     EDIT_SLEEP_TIME_OUT,
     DESTINATION_FOLDER,
     RCLONE_CONFIG
