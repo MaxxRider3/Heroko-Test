@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52
 
 # the logging things
 import logging
@@ -16,9 +15,9 @@ LOGGER = logging.getLogger(__name__)
 import aria2p
 import asyncio
 import os
-from tobrot.helper_funcs.upload_to_tg import upload_to_tg, upload_to_gdrive
-from tobrot.helper_funcs.create_compressed_archive import create_archive, unzip_me, unrar_me, untar_me
-from tobrot.helper_funcs.extract_link_from_message import extract_link
+from madarchoot.maro_mujhe.upload_to_tg import upload_to_tg, upload_to_gdrive
+from madarchoot.maro_mujhe.create_compressed_archive import create_archive, unzip_me, unrar_me, untar_me
+from madarchoot.maro_mujhe.extract_link_from_message import extract_link
 
 from tobrot import (
     ARIA_TWO_STARTED_PORT,
