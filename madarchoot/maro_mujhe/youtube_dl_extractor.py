@@ -13,7 +13,7 @@ LOGGER = logging.getLogger(__name__)
 
 
 import asyncio
-from tobrot.helper_funcs.display_progress import humanbytes
+from madarchoot.maro_mujhe.display_progress import humanbytes
 import json
 import os
 import pyrogram
