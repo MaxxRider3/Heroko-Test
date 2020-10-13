@@ -14,7 +14,7 @@ LOGGER = logging.getLogger(__name__)
 import pyrogram
 
 
-from tobrot import (
+from madarchoot import (
     AUTH_CHANNEL
 )
 
@@ -51,7 +51,7 @@ async def rename_message_f(client, message):
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
-        "please use @renamebot",
+        "please use @MaxxRenameProBot",
         quote=True,
         reply_markup=reply_markup
     )
