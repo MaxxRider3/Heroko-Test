@@ -13,7 +13,7 @@ LOGGER = logging.getLogger(__name__)
 
 import os
 
-from madarchoot import (
+from tobrot import (
     REAL_DEBRID_KEY
 )
 
