@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# (c) Shrimadhav U K | gautamajay52
 
 # the logging things
 import logging
@@ -19,7 +18,7 @@ import traceback
 import shutil
 import io
 
-from tobrot import (
+from madarchoot import (
     MAX_MESSAGE_LENGTH,
     AUTH_CHANNEL,
     BOT_START_TIME,
@@ -27,12 +26,12 @@ from tobrot import (
 )
 
 
-from tobrot.helper_funcs.admin_check import AdminCheck
-from tobrot.helper_funcs.download_aria_p_n import call_apropriate_function, aria_start
-from tobrot.helper_funcs.upload_to_tg import upload_to_tg
+from madarchoot.maro_mujhe.admin_check import AdminCheck
+from madarchoot.maro_mujhe.download_aria_p_n import call_apropriate_function, aria_start
+from madarchoot.maro_mujhe.upload_to_tg import upload_to_tg
 
 
-from tobrot.helper_funcs.display_progress import (
+from madarchoot.maro_mujhe.display_progress import (
     TimeFormatter,
     humanbytes
 )
